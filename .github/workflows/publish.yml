@@ -3,8 +3,7 @@
 name: Workflow3
 
 on:
-    push:
-      branches: [ develop ]
+    workflow_dispatch:
 
 jobs:
   publish:
